@@ -5,5 +5,5 @@ generator client {
 
 datasource db {
   provider = "sqlserver"
-  url      = env("DATABASE_URL")
+  url      = env("mysql://3pJnoSStMF6J8Zx.root:NhFf7BmbPyeR26x@gateway01.us-west-2.prod.aws.tidbcloud.com:4000/bookshop")
 }
